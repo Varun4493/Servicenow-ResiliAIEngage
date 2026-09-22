@@ -1,6 +1,6 @@
 # Resiliai Engage: AI-Powered & Gamified Disaster Response Platform
 
-> **ServiceNow University Hackathon India 2025 Submission**  
+> **ServiceNow University Hackathon India 2025 Submission**[cite: 1]  
 > **Team:** SixNow Coders (Pragati Engineering College, Surampalem, AP)[cite: 1]  
 > **Role (Yarlapati Venkata Naga Durga Varun):** ServiceNow Developer (Back-end)[cite: 1]
 
@@ -25,48 +25,3 @@ The platform acts as a central nervous system for disaster management, leveragin
 ---
 
 ## 🛠️ Architecture & Working Procedure
-
-[Citizen Incident Submission] ──► [Gamification Points Awarded]
-│
-▼
-[AI Situational Synthesis Engine] ──► [Generative AI Response Plan]
-│
-▼
-[Central Dashboard Analytics] ◄── [Automated Task Routing & Dispatch]
-
-
-1. **Reporting:** Citizens submit structured reports via the Service Portal/Mobile App and instantly receive points[cite: 1].
-2. **AI Synthesis:** Server-side scripts/Business Rules aggregate report details into a consolidated Situational Awareness Report[cite: 1].
-3. **Plan Generation & Tasking:** Generative AI creates an optimal response plan, automatically translating it into tasks[cite: 1].
-4. **Intelligent Dispatch:** Flow Designer assigns tasks to volunteers based on location and skills, issuing notification alerts and "First Responder" badges upon task acceptance[cite: 1].
-5. **Real-time Updates & Completion:** Volunteers update task statuses via mobile interface; task completion updates central dashboards and awards completion badges[cite: 1].
-
----
-
-## 🧰 Tech Stack & ServiceNow Components
-
-* **Platform Environment:** ServiceNow Personal Developer Instance (PDI)[cite: 1]
-* **Development & UI:** App Engine Studio, Service Portal, ServiceNow Mobile App[cite: 1]
-* **Workflow & Automation:** Flow Designer, Server-side Business Rules, Notifications[cite: 1]
-* **Data Model:** Custom Tables (`Incidents`, `Volunteers`, `Tasks`, `Resources`, `Gamification_Metrics`)[cite: 1]
-* **Reporting & Integrations:** Dashboards & Reports, IntegrationHub (simulated social feeds/weather API)[cite: 1]
-
----
-
-## 👥 Team Structure & Roles
-
-| Team Member | Role & Responsibilities |
-| :--- | :--- |
-| **Rajeev Boddu** | Team Leader & Solution Architect[cite: 1] |
-| **Yarlapati Venkata Naga Durga Varun** | **ServiceNow Developer (Back-end):** Core workflows, Custom Tables, server-side business logic, Flow Designer, and gamification mechanics[cite: 1]. |
-| **Sabbarapu Kumar Ganesh** | **ServiceNow Developer (Front-end):** Service Portal, Mobile UI/UX, and gamification visual interfaces[cite: 1]. |
-| **Jenna Meghanadh** | **AI/NLU Specialist:** AI logic design, NLU configuration, and Generative AI mock-ups[cite: 1]. |
-| **Vignesh Mullangi** | **Data & Reporting Specialist:** Dynamic Command & Control dashboards, analytics, and metric structures[cite: 1]. |
-| **Vennapu Lingeswara rao** | **QA & Documentation:** Solution testing, documentation compile, and demo workflow preparation[cite: 1]. |
-
----
-
-## 📄 References & Documentation
-
-* Project proposal and architecture submitted for **ServiceNow University Hackathon India 2025**[cite: 1].
-* Included project documentation outlines implementation phases, data model design, and step-by-step working procedure[cite: 1].
